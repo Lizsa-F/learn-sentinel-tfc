@@ -13,7 +13,7 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    organization = "coursez"
+    organization = "TCS-terraform-learning"
 
     workspaces {
       name = "sentinel-example"
